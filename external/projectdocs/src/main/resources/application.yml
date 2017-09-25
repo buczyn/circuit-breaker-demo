@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: projectdocs
+
+server:
+  port: 8103
+
+documents:
+  projects:
+    project1:
+      -
+        id: 123
+        name: 'Project Overview'
+        author: 'John Smith'
+        created: 2017-01-16
+        lastModified: 2017-03-20
+        public: true
+      -
+        id: 145
+        name: 'Responsibilities'
+        author: 'John Smith'
+        created: 2017-01-20
+        lastModified: 2017-07-02
+        public: true
+      -
+        id: 401
+        name: 'Budget'
+        author: 'Bill Doe'
+        created: 2017-03-17
+        lastModified: 2017-04-06
+        public: false
