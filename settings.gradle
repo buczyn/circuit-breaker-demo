@@ -1,3 +1,4 @@
 rootProject.name = 'demo'
 include 'external:token-service'
 include 'external:projectdocs'
+include 'demo:hystrix'

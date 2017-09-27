@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: demo-hystrix
+
+server:
+  port: 8200
