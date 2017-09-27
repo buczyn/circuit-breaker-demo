@@ -1,0 +1,21 @@
+plugins {
+    id 'io.franzbecker.gradle-lombok' version '1.10'
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'io.franzbecker.gradle-lombok'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Camden.SR5"
+    }
+}
