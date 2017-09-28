@@ -29,3 +29,11 @@ documents:
         created: 2017-03-17
         lastModified: 2017-04-06
         public: false
+    project2:
+      -
+        id: 234
+        name: 'Team members'
+        author: 'Sally Wilson'
+        create: 2017-04-01
+        lastModified: 2017-04-01
+        public: false
