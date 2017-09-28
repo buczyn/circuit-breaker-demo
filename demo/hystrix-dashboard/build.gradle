@@ -11,7 +11,9 @@ sourceCompatibility = 1.8
 
 dependencies {
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix-dashboard'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'
 }
 
 dependencyManagement {
